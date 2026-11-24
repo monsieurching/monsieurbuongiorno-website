@@ -2,6 +2,10 @@
 
 A static editorial home for Albert Ching. Netlify publishes the repository root automatically when `main` changes.
 
+## Add a new article
+
+Copy an existing article folder under `perfumes/` or `drinks/`, update its copy and metadata, link it from the relevant index and homepage, then add the URL to `sitemap.xml`. Netlify publishes pushes to `main` automatically.
+
 ## Add a seasonal perfume edit
 
 1. Copy `perfumes/cold-season/index.html` to a new folder such as `perfumes/spring/index.html`.
