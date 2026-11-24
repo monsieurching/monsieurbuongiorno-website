@@ -15,3 +15,5 @@ Copy an existing article folder under `perfumes/` or `drinks/`, update its copy 
 5. If you use a ShopMy link, keep an affiliate disclosure near the recommendations and `rel="sponsored nofollow noopener"` on the link.
 
 The newsletter currently links to the existing Substack.
+
+Site analytics use the existing Maison Buongiorno PostHog project. Filter events by `site = monsieurbuongiorno.com` or host. Pageviews and ShopMy outbound clicks are recorded; local preview visits are excluded.
