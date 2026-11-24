@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://monsieurbuongiorno.com/sitemap.xml
