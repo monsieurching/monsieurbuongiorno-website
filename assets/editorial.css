@@ -28,3 +28,18 @@ header{border-bottom:2px solid var(--ink)}
 .explore-links{border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
 .explore-links a{border-right:1px solid var(--ink)}
 .navcta,.button{border-radius:0}
+
+/* Clear, paced cards for the homepage Explore section. */
+.explore-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:36px}
+.explore-links a{display:flex;flex-direction:column;gap:18px;min-width:0;padding:25px 28px 30px;text-decoration:none;border-right:1px solid var(--ink);transition:background .2s ease}
+.explore-links a:first-child{border-left:1px solid var(--ink)}
+.explore-links a:hover{background:#e8eee9}
+.explore-links span{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.16em;font-weight:700;color:var(--olive)}
+.explore-links strong{display:block;font:clamp(26px,2.4vw,36px)/1.08 'Libre Caslon Display',Georgia,serif;font-weight:400;overflow-wrap:break-word}
+.navcta,.links a:last-child{background:#12c45d;color:#102d1d;border:1px solid #0b9c49;padding:9px 17px;text-decoration:none;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+.navcta:hover,.links a:last-child:hover{background:#0daa50;color:#fff;text-decoration:none}
+@media(max-width:900px){.explore-links{grid-template-columns:1fr}.explore-links a,.explore-links a:first-child{border-left:1px solid var(--ink);border-right:1px solid var(--ink);border-bottom:1px solid var(--ink)}.explore-links a:last-child{border-bottom:0}}
+@media(max-width:1100px){.navlinks.open{z-index:10}.navlinks.open a{padding:7px 0}.navcta{display:none}}
+
+.mobile-subscribe{display:none}
+@media(max-width:1100px){.navlinks.open .mobile-subscribe{display:block;background:#12c45d;color:#102d1d;padding:10px 15px;align-self:flex-start}}
