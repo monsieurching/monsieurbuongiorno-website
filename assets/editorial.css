@@ -1,0 +1,30 @@
+/* Editorial system: quiet paper, ink, rules, and numbered travel sections. */
+:root{--ink:#1d2423;--paper:#f8f7f2;--line:#b7bcb6;--olive:#3b5e56;--dark:#1d3432}
+body{background:var(--paper);color:var(--ink)}
+header{border-bottom:2px solid var(--ink)}
+.nav{border-top:5px solid var(--ink)}
+.wordmark{letter-spacing:-.035em}
+.eyebrow,.tag,.brand{font-family:'DM Sans',Arial,sans-serif;font-weight:600;letter-spacing:.16em}
+.hero h1,.section-heading h2,.entry h2,.tile h2{letter-spacing:-.035em}
+.section-heading,.entry{border-bottom-color:var(--ink);border-top-color:var(--ink)}
+.section-heading{border-bottom-width:2px}
+.entry{border-top-width:2px}
+.byline{border-top:1px solid var(--ink);padding-top:12px;max-width:760px}
+.lead{border-top:2px solid var(--ink);padding-top:12px}
+.lead figcaption,.photo figcaption{border-top:1px solid var(--line);padding-top:8px;text-transform:uppercase;letter-spacing:.08em;font-size:11px}
+.tiles{gap:0;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+.tile{background:transparent;border-right:1px solid var(--ink)}
+.tile:first-child{border-left:1px solid var(--ink)}
+.tile-copy{padding:23px}
+.tile img{filter:saturate(.88)}
+.tile h2{font-size:clamp(28px,2.8vw,38px)}
+.tile .tag{color:var(--olive)}
+.cta{background:var(--dark)}
+@media(max-width:800px){.tile{border-right:1px solid var(--ink);border-left:1px solid var(--ink);border-bottom:1px solid var(--ink)}.tile:first-child{border-left:1px solid var(--ink)}.tiles{gap:0}}
+/* Homepage's image treatment remains illustration-led. */
+.feature,.card,.shop-item,.about{background:#eeeee8}
+.shop-item{border-top:2px solid var(--ink)}
+.card-body{border-top:2px solid var(--ink)}
+.explore-links{border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+.explore-links a{border-right:1px solid var(--ink)}
+.navcta,.button{border-radius:0}
