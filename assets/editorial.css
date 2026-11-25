@@ -43,3 +43,6 @@ header{border-bottom:2px solid var(--ink)}
 
 .mobile-subscribe{display:none}
 @media(max-width:1100px){.navlinks.open .mobile-subscribe{display:block;background:#12c45d;color:#102d1d;padding:10px 15px;align-self:flex-start}}
+
+/* A more compact editorial rhythm and Paris illustration. */
+.hero{min-height:500px}.hero-copy{padding-top:70px;padding-bottom:65px}.hero-art{min-height:500px;background:#c3cbb5}.hero-art:before,.hero-art .sun{display:none}.hero-art .portrait{width:100%;height:100%;inset:0;object-fit:cover;object-position:center 42%;filter:none}.hero-art .caption{left:5%;bottom:4%;font-size:14px;text-shadow:0 1px 5px #1d3432}.wrap{padding-top:68px;padding-bottom:68px}.about-inner{padding-top:70px;padding-bottom:70px}.newsletter{padding-top:65px;padding-bottom:65px}.hotel-book a{display:inline-block;background:#1d3432;color:#fff;padding:10px 15px;text-decoration:none;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}.hotel-book a:hover{background:#0eab50}.hotel-book{margin-top:22px!important}@media(max-width:1100px){.hero-art{min-height:380px}.wrap{padding-top:55px;padding-bottom:55px}}
