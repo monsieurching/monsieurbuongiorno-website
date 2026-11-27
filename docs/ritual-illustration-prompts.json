@@ -1,0 +1,22 @@
+{
+  "generator": "Built-in image_gen",
+  "purpose": "Original imagined scenes for the daily rituals article; not documentary depictions of specific homes or the YMCA.",
+  "prompts": [
+    {
+      "asset": "assets/ritual-morning.webp",
+      "prompt": "Use case: illustration-story. Asset type: landscape editorial illustration for Maison Buongiorno / Monsieur Buongiorno personal rituals journal. Create an original charming sophisticated French-Italian lifestyle magazine spot illustration. Thin expressive black pen contours, flat slightly imperfect gouache washes, warm white paper, restrained forest green, pool blue, ochre and a tiny terracotta accent, plenty of clean breathing room. Human hand-drawn character, lively but understated, no photorealism, no 3D, no gradients, no sepia watercolor haze, no typography or letters or watermark. Landscape 3:2 composition. Scene: An open bedroom window with linen curtains and early morning light, a quietly rumpled pillow in foreground and a small glass of water, a leafy tree outside. The feeling of waking slowly before the world intrudes. No phone, no clock, no coffee, no person."
+    },
+    {
+      "asset": "assets/ritual-water.webp",
+      "prompt": "Use case: illustration-story. Asset type: landscape editorial illustration for Maison Buongiorno / Monsieur Buongiorno personal rituals journal. Create an original charming sophisticated French-Italian lifestyle magazine spot illustration. Thin expressive black pen contours, flat slightly imperfect gouache washes, warm white paper, restrained forest green, pool blue, ochre and a tiny terracotta accent, plenty of clean breathing room. Human hand-drawn character, lively but understated, no photorealism, no 3D, no gradients, no sepia watercolor haze, no typography or letters or watermark. Landscape 3:2 composition. Scene: A beautiful modest indoor neighborhood swimming pool, turquoise water with lively hand-drawn ripples, a stainless pool ladder on one side and a folded white towel and swimming goggles on pale tiles. Tall windows, daylight. No people, no branding. A small intimate view, not a luxury resort."
+    },
+    {
+      "asset": "assets/ritual-evening.webp",
+      "prompt": "Use case: illustration-story. Asset type: landscape editorial illustration for Maison Buongiorno / Monsieur Buongiorno personal rituals journal. Create an original charming sophisticated French-Italian lifestyle magazine spot illustration. Thin expressive black pen contours, flat slightly imperfect gouache washes, warm white paper, restrained forest green, pool blue, ochre and a tiny terracotta accent, plenty of clean breathing room. Human hand-drawn character, lively but understated, no photorealism, no 3D, no gradients, no sepia watercolor haze, no typography or letters or watermark. Landscape 3:2 composition. Scene: An open book on a bedside table beside a small warm yellow reading lamp, a child's small closed book nestled next to it, soft folded bedding visible at the edge and a dark blue evening window with one small star. The feeling of reading, family bedtime, gratitude and letting the day go. No people, no text."
+    },
+    {
+      "asset": "assets/ritual-together.webp",
+      "prompt": "Use case: illustration-story. Asset type: landscape illustration for Maison Buongiorno personal rituals journal. Original sophisticated French-Italian lifestyle editorial illustration matching a series of hand-drawn pen and gouache scenes: thin expressive black pen lines, slightly imperfect flat washes of forest green, ochre, pale blue and tiny terracotta accents on warm white paper. A simple front doorway opening toward a leafy neighborhood pavement, a pair of adult walking shoes and a pair of small child's shoes together on the doorstep, a child's small backpack on a peg and a light jacket nearby. Intimate everyday family life, leaving home together, no people, no pets, no phones, no logos, no text, no watermark, no photorealism, no 3D. Landscape 3:2, composed with breathing space, charming understated detail, match the palette of an illustrated morning window and indoor pool."
+    }
+  ]
+}
